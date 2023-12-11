@@ -1,0 +1,67 @@
+.container{
+    background-image:url("milky-way-2695569_1280.jpg");
+    min-height: 1000px;
+}
+form{
+    width: 20%;
+    
+    padding: 300px;
+    border-radius: 50px;
+    margin: auto;
+}
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: grid;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+    
+    
+  }
+
+  
+  /* Set a style for all buttons */
+  button {
+    background-color:grey;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  
+  /* Center the avatar image inside this container */
+  
+  
+  /* Add padding to containers */
+  
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }

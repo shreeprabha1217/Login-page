@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="container">
+     <!--   <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" value="shreeprabhabhat@gmail.com" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" value="1712" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" value="1712" required>
+    <hr>
+
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+
+  <div class="container signin">
+    <p>Already have an account? <a href="#">Sign in</a>.</p> -->
+        <form name="login" method="post" onsubmit="return redirect(this);">
+           
+        <label for="uname"></label>
+        <input type="text" placeholder="Enter your name" name="uname" value="shreeprabhabhat@gmail.com" required><br>
+
+        <label for="psw"></label>
+        <input type="text" placeholder="Enter your password" name="psw" value="1712" required><br>
+"
+        <button type="submit" name="redirct">Login</button>
+        </form>
+        <script>
+            function redirect(form){
+                var done=0
+                var username=document.login.uname.value;
+                var password=document.login.psw.value;
+                if(username=="Shreeprabha"&&password=="1712"){
+                    window.location.href="https://www.w3schools.com/tags/tag_button.asp";
+                    done=1;
+                }
+                if(done==0){
+                    alert("Invalid");
+                }
+                return false;
+            }
+        </script>
+        
+        
+    </div>
+
+    
+</body>
+</html>
